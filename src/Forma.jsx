@@ -12,7 +12,6 @@ function Forma() {
 
     webix.ready(() => {
     webix.CustomScroll.init();
-      require("./codebase/diagram/diagram");
       uiRef.current =  webix.ui({
         view:"form", 
         id:"log_form",
