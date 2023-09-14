@@ -1,4 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
+import * as webix from "./codebase/webix/webix";
+const {$$} = webix
 
 function Forma() {
   const uiContainer = useRef(null);
